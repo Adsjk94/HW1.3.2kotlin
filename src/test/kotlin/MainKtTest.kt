@@ -55,6 +55,7 @@ class MainKtTest {
 
         //assert
         assertEquals(35_000_000, result)
+        assertEquals(35_000_000, result)
 
     }
 
