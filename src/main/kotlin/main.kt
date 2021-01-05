@@ -1,8 +1,8 @@
 fun main() {
 
-    val transferAmount: Int = 256_584_00
-    var lastPurchases: Int = 0
-    var commission = calculatePrice(transferAmount)
+    val transferAmount = 256_584_00
+    var lastPurchases = 0
+    val commission: Int = calculatePrice(transferAmount)
     lastPurchases += transferAmount
     println("Сумма перевода: $transferAmount, комиссия: $commission")
 

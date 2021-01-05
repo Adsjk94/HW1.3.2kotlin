@@ -8,9 +8,9 @@ class MainKtTest {
     fun calculatePrice_vk() {
 
         //arrange
-        val amount: Int = 100_000_000
-        val type: String = "vkPay"
-        val purchases: Int = 0
+        val amount = 256_000_000
+        val type = "vkPay"
+        val purchases = 0
 
 
         //act
@@ -26,9 +26,9 @@ class MainKtTest {
     fun calculatePrice_MaestroAndMaster() {
 
         //arrange
-        val amount: Int = 100_000_000
-        val type: String = "Maestro"
-        val purchases: Int = 0
+        val amount = 100_000_000
+        val type = "Maestro"
+        val purchases = 0
 
 
         //act
@@ -44,9 +44,9 @@ class MainKtTest {
     fun calculatePrice_VisaAndMir() {
 
         //arrange
-        val amount: Int = 100_000_000
-        val type: String = "Visa"
-        val purchases: Int = 0
+        val amount = 100_000_000
+        val type = "Visa"
+        val purchases = 0
 
 
         //act
@@ -64,9 +64,9 @@ class MainKtTest {
     fun calculatePrice_else() {
 
         //arrange
-        val amount: Int = 100_000_000
-        val type: String = "Else"
-        val purchases: Int = 0
+        val amount = 100_000_000
+        val type = "Else"
+        val purchases = 0
 
 
         //act
@@ -83,9 +83,9 @@ class MainKtTest {
     fun calculatePrice_vk_lastPurchases() {
 
         //arrange
-        val amount: Int = 100_000_000
-        val type: String = "vkPay"
-        val purchases: Int = 600_000_001
+        val amount = 100_000_000
+        val type = "vkPay"
+        val purchases = 600_000_001
 
 
         //act
